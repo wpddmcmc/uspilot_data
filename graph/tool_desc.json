@@ -1,0 +1,174 @@
+{
+    "nodes": [
+        {
+            "id": "ImageCapture",
+            "desc": "Captures images through camera.",
+            "input-type": [
+                "None"
+            ],
+            "output-type": [
+                "None"
+            ]
+        },
+        {
+            "id": "DetectLiver",
+            "desc": "Detects the liver from the captured ultrasound image.",
+            "input-type": [
+                "None"
+            ],
+            "output-type": [
+                "None"
+            ]
+        },
+        {
+            "id": "DetectThyroid",
+            "desc": "Detects the thyroid from the captured ultrasound image.",
+            "input-type": [
+                "None"
+            ],
+            "output-type": [
+                "None"
+            ]
+        },
+        {
+            "id": "DetectFemoralVessel",
+            "desc": "Detects the femoral vessel from the captured ultrasound image.",
+            "input-type": [
+                "None"
+            ],
+            "output-type": [
+                "None"
+            ]
+        },
+        {
+            "id": "DetectCarotidArtery",
+            "desc": "Detects the carotid artery from the captured ultrasound image.",
+            "input-type": [
+                "None"
+            ],
+            "output-type": [
+                "None"
+            ]
+        },
+        {
+            "id": "MoveRobot",
+            "desc": "Moves the robot to the starting position.",
+            "input-type": [
+                "None"
+            ],
+            "output-type": [
+                "None"
+            ]
+        },
+        {
+            "id": "ExcuteScan",
+            "desc": "Executes the scan process of the robot.",
+            "input-type": [
+                "None"
+            ],
+            "output-type": [
+                "None"
+            ]
+        },
+        {
+            "id": "USCaption",
+            "desc": "Captures image from ultrasound.",
+            "input-type": [
+                "None"
+            ],
+            "output-type": [
+                "None"
+            ]
+        },
+        {
+            "id": "LiverSegmentation",
+            "desc": "Segments the liver from the ultrasound image.",
+            "input-type": [
+                "None"
+            ],
+            "output-type": [
+                "None"
+            ]
+        },
+        {
+            "id": "ThyroidSegmentation",
+            "desc": "Segments the thyroid from the ultrasound image.",
+            "input-type": [
+                "None"
+            ],
+            "output-type": [
+                "None"
+            ]
+        },
+        {
+            "id": "FemoralVesselSegmentation",
+            "desc": "Segments the femoral vessel from the ultrasound image.",
+            "input-type": [
+                "None"
+            ],
+            "output-type": [
+                "None"
+            ]
+        },        
+        {
+            "id": "CarotidArterySegmentation",
+            "desc": "Segments the carotid artery from the captured ultrasound image.",
+            "input-type": [
+                "None"
+            ],
+            "output-type": [
+                "None"
+            ]
+        },
+        {
+            "id": "VesselReconstruction",
+            "desc": "Reconstructs a 3D model of vessels based on the segmented data.",
+            "input-type": [
+                "None"
+            ],
+            "output-type": [
+                "None"
+            ]
+        },
+        {
+            "id": "PublishCarotidArteryReport",
+            "desc": "Publishes a report to the carotid artery department.",
+            "input-type": [
+                "None"
+            ],
+            "output-type": [
+                "None"
+            ]
+        },
+        {
+            "id": "PublishFemoralVesselReport",
+            "desc": "Publishes a report to the femoral vessel department.",
+            "input-type": [
+                "None"
+            ],
+            "output-type": [
+                "None"
+            ]
+        },
+        {
+            "id": "PublishGastroenterologyReport",
+            "desc": "Publishes a report to the gastroenterology department.",
+            "input-type": [
+                "None"
+            ],
+            "output-type": [
+                "None"
+            ]
+        },
+        {
+            "id": "PublishHepatologyReport",
+            "desc": "Publishes a report to the hepatology department.",
+            "input-type": [
+                "None"
+            ],
+            "output-type": [
+                "None"
+            ]
+        }
+    ]
+}
