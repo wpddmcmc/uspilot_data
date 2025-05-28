@@ -61,7 +61,7 @@
             ]
         },
         {
-            "id": "ExcuteScan",
+            "id": "executeScan",
             "desc": "Executes the scan process of the robot.",
             "input-type": [
                 "None"
@@ -214,11 +214,11 @@
         },
         {
             "source": "MoveRobot",
-            "target": "ExcuteScan",
+            "target": "executeScan",
             "type": "text"
         },
         {
-            "source": "ExcuteScan",
+            "source": "executeScan",
             "target": "USCaption",
             "type": "text"
         },

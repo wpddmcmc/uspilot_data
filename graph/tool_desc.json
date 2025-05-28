@@ -61,7 +61,7 @@
             ]
         },
         {
-            "id": "ExcuteScan",
+            "id": "executeScan",
             "desc": "Executes the scan process of the robot.",
             "input-type": [
                 "None"
